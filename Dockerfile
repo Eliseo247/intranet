@@ -1,5 +1,5 @@
-FROM centos:centos7
-LABEL maintainer="Vicente Zepeda <chente.z.m@gmail.com>"
+FROM centos:7
+LABEL maintainer="josue"
 
 ENV nginxversion="1.14.0-1" \
     os="centos" \
