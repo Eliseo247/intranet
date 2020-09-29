@@ -16,5 +16,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY index.html /data/www/index.html
 VOLUME [ "/data/www" ]
 EXPOSE 80
+user root
 
 CMD ["nginx", "-g", "daemon off;"]
